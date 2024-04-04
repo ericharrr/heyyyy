@@ -40,6 +40,9 @@ die ( ) {
     exit 1
 }
 
+# Use the maximum available, or set MAX_FD != -1 to use that value.
+MAX_FD="maximum"
+##  Gradle start up script for UN*X
 # OS specific support (must be 'true' or 'false').
 cygwin=false
 msys=false
